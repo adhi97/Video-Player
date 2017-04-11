@@ -4,7 +4,7 @@ var Video = React.createClass({
   render: function () {
     return (
       <div>
-        <video controls autostart autoplay />
+        <video src={this.props.src} controls autostart autoplay />
       </div>
     );
   }
